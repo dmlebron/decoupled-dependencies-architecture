@@ -12,12 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var searchStackView: UIStackView!
     @IBOutlet weak var searchText: UITextField!
-    @IBOutlet weak var artistNameLabel: UILabel!
     @IBOutlet weak var searchButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
     private var resultsArray = [NSDictionary]() {
         didSet {
-            artistNameLabel.text = resultsArray.first!["artistName"] as? String
             tableView.reloadData()
         }
     }
@@ -34,9 +32,7 @@ class ViewController: UIViewController {
 // MARK: Selectors
 @objc extension ViewController {
     func searchButtonTapped() {
-        guard isArtistNameValid() else {
-            return self.handleNoResponse()
-        }
+        guard isArtistNameValid() else { return }
         
         self.search(forArtist: searchText.text!)
     }
@@ -44,16 +40,10 @@ class ViewController: UIViewController {
 
 // MARK: Private
 private extension ViewController {
-    private func handleNoResponse() {
-        self.artistNameLabel.text = "Nothing Found"
-    }
     
     private func search(forArtist artist: String) {
         ApiService.get(withResultType: Type.album, forArtist: artist, completion: { [unowned self] (response)  in
-            guard let response = response else {
-                self.handleNoResponse()
-                return
-            }
+            guard let response = response else { return }
             self.resultsArray = response
         })
     }
@@ -80,6 +70,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         cell.textLabel?.text = resultsArray[indexPath.row]["collectionName"] as? String
+        cell.detailTextLabel?.text = resultsArray[indexPath.row]["artistName"] as? String
         
         return cell
     }
