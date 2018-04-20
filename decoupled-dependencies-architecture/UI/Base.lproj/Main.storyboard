@@ -25,7 +25,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="171.5" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="eHq-kq-0nW" id="bge-r8-5KX"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0J-JB-IKe">
                                         <rect key="frame" x="171.5" y="0.0" width="171.5" height="30"/>
@@ -111,9 +114,9 @@
                     <navigationItem key="navigationItem" id="eBC-b0-SZf"/>
                     <connections>
                         <outlet property="artistNameLabel" destination="Gzg-tF-5gn" id="PWL-7o-WxR"/>
-                        <outlet property="artistNameText" destination="8w9-Va-E8P" id="g7R-XE-8vO"/>
                         <outlet property="searchButton" destination="R0J-JB-IKe" id="Xqa-ZC-Nld"/>
                         <outlet property="searchStackView" destination="4Dk-rn-KLj" id="XBw-xW-xsM"/>
+                        <outlet property="searchText" destination="8w9-Va-E8P" id="TIp-Ff-Jma"/>
                         <outlet property="tableView" destination="jjh-mc-Oos" id="kjX-vf-xeP"/>
                     </connections>
                 </viewController>

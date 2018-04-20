@@ -113,6 +113,7 @@
 		EE9F83EC2087BB160024009C /* decoupled-dependencies-architecture */ = {
 			isa = PBXGroup;
 			children = (
+				EEC688A4208A3FBF00D3457B /* Protocols */,
 				EE9F83ED2087BB160024009C /* AppDelegate.swift */,
 				EE9F83EF2087BB160024009C /* ViewController.swift */,
 				EEC68891208A2F3400D3457B /* Services */,
@@ -148,6 +149,13 @@
 				EE9F83F62087BB170024009C /* LaunchScreen.storyboard */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		EEC688A4208A3FBF00D3457B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
