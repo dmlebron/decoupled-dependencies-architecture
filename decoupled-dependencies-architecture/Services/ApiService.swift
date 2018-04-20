@@ -8,9 +8,9 @@
 
 import Foundation
 
-public enum UrlAddress {
+enum UrlAddress {
     
-    static let base = "https://jobs.github.com/positions.json"
+    static let base = "https://itunes.apple.com/search"
     
     case parameters(parameters: [Parameter: String])
     
@@ -29,23 +29,31 @@ public enum UrlAddress {
     }
 }
 
-public enum Parameter: String {
-    case description
-    case location
+enum Parameter: String {
+    case artistName = "term"
+    case type = "entity"
 }
 
-public final class ApiService {
+enum Type: String {
+    case album
+    case musicVideo
+    case musicTrack
+}
+
+
+final class ApiService {
     
-    public static func get(forCityQuery city: String, completion: @escaping ([NSDictionary]?) -> ()) {
-        let stringUrl = UrlAddress.parameters(parameters: [Parameter.description: "ios", Parameter.location: city]).full
+    static func get(withResultType type: Type, forArtist artist: String, completion: @escaping ([NSDictionary]?) -> ()) {
+        let stringUrl = UrlAddress.parameters(parameters: [Parameter.type: type.rawValue, Parameter.artistName: artist]).full
         guard let url = URL(string: stringUrl) else { return completion(nil) }
+        
         NetworkManager.get(fromUrl: url) { (response) in
-            guard let response = response as? [NSDictionary] else {
+            guard let response = response as? NSDictionary,
+                let result = response["results"] as? [NSDictionary] else {
                 return completion(nil)
             }
-            completion(response)
+            completion(result)
         }
-        
     }
     
 }

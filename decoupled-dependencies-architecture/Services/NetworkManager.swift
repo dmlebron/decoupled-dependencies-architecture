@@ -16,9 +16,14 @@ class NetworkManager {
             }
             do {
                 let deserialized = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-                completion(deserialized)
+                DispatchQueue.main.async {
+                    completion(deserialized)
+                }
+                
             } catch {
-                completion(nil)
+                DispatchQueue.main.async {
+                    completion(nil)
+                }
             }
             }.resume()
     }

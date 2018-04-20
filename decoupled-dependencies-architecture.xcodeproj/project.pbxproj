@@ -15,9 +15,8 @@
 		EE9F83F52087BB170024009C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F83F42087BB170024009C /* Assets.xcassets */; };
 		EE9F83F82087BB170024009C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F83F62087BB170024009C /* LaunchScreen.storyboard */; };
 		EE9F84032087BB180024009C /* decoupled_dependencies_architectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F84022087BB180024009C /* decoupled_dependencies_architectureTests.swift */; };
-		EEC6889C208A301A00D3457B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6889B208A301A00D3457B /* NetworkManager.swift */; };
-		EEC688A0208A304300D3457B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC68892208A2F3400D3457B /* ApiService.swift */; };
-		EEC688A1208A324E00D3457B /* libNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC68899208A301A00D3457B /* libNetworkManager.a */; };
+		EEC688A2208A359A00D3457B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC68892208A2F3400D3457B /* ApiService.swift */; };
+		EEC688A3208A359A00D3457B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6889B208A301A00D3457B /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,18 +28,6 @@
 			remoteInfo = "decoupled-dependencies-architecture";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		EEC68897208A301A00D3457B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03303672E90C74E3DE2A3B3B /* Pods-decoupled-dependencies-architectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +47,6 @@
 		EE9F84022087BB180024009C /* decoupled_dependencies_architectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoupled_dependencies_architectureTests.swift; sourceTree = "<group>"; };
 		EE9F84042087BB180024009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEC68892208A2F3400D3457B /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
-		EEC68899208A301A00D3457B /* libNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC6889B208A301A00D3457B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC688A1208A324E00D3457B /* libNetworkManager.a in Frameworks */,
 				228AA70A80D7CEE0D74C3161 /* Pods_decoupled_dependencies_architecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,13 +64,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8CEE1B50119B7CE00CF8CD /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEC68896208A301A00D3457B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +95,6 @@
 			children = (
 				EE9F83EC2087BB160024009C /* decoupled-dependencies-architecture */,
 				EE9F84012087BB180024009C /* decoupled-dependencies-architectureTests */,
-				EEC6889A208A301A00D3457B /* NetworkManager */,
 				EE9F83EB2087BB160024009C /* Products */,
 				920E5F4F4DD8483CBA33C72E /* Pods */,
 				275A0E3565F87A5E00D21D0E /* Frameworks */,
@@ -129,7 +106,6 @@
 			children = (
 				EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */,
 				EE9F83FE2087BB180024009C /* decoupled-dependencies-architectureTests.xctest */,
-				EEC68899208A301A00D3457B /* libNetworkManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +135,8 @@
 		EEC68891208A2F3400D3457B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EEC68892208A2F3400D3457B /* ApiService.swift */,
+				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -170,15 +148,6 @@
 				EE9F83F62087BB170024009C /* LaunchScreen.storyboard */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		EEC6889A208A301A00D3457B /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				EEC68892208A2F3400D3457B /* ApiService.swift */,
-				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
-			);
-			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,23 +191,6 @@
 			productReference = EE9F83FE2087BB180024009C /* decoupled-dependencies-architectureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EEC68898208A301A00D3457B /* NetworkManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EEC6889D208A301A00D3457B /* Build configuration list for PBXNativeTarget "NetworkManager" */;
-			buildPhases = (
-				EEC68895208A301A00D3457B /* Sources */,
-				EEC68896208A301A00D3457B /* Frameworks */,
-				EEC68897208A301A00D3457B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NetworkManager;
-			productName = NetworkManager;
-			productReference = EEC68899208A301A00D3457B /* libNetworkManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,9 +207,6 @@
 					EE9F83FD2087BB180024009C = {
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = EE9F83E92087BB160024009C;
-					};
-					EEC68898208A301A00D3457B = {
-						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
@@ -276,7 +225,6 @@
 			targets = (
 				EE9F83E92087BB160024009C /* decoupled-dependencies-architecture */,
 				EE9F83FD2087BB180024009C /* decoupled-dependencies-architectureTests */,
-				EEC68898208A301A00D3457B /* NetworkManager */,
 			);
 		};
 /* End PBXProject section */
@@ -363,6 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC688A2208A359A00D3457B /* ApiService.swift in Sources */,
+				EEC688A3208A359A00D3457B /* NetworkManager.swift in Sources */,
 				EE9F83F02087BB160024009C /* ViewController.swift in Sources */,
 				EE9F83EE2087BB160024009C /* AppDelegate.swift in Sources */,
 			);
@@ -373,15 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9F84032087BB180024009C /* decoupled_dependencies_architectureTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEC68895208A301A00D3457B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEC688A0208A304300D3457B /* ApiService.swift in Sources */,
-				EEC6889C208A301A00D3457B /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,32 +552,6 @@
 			};
 			name = Release;
 		};
-		EEC6889E208A301A00D3457B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9NM4DLTS84;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EEC6889F208A301A00D3457B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9NM4DLTS84;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -663,15 +578,6 @@
 			buildConfigurations = (
 				EE9F840B2087BB180024009C /* Debug */,
 				EE9F840C2087BB180024009C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EEC6889D208A301A00D3457B /* Build configuration list for PBXNativeTarget "NetworkManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EEC6889E208A301A00D3457B /* Debug */,
-				EEC6889F208A301A00D3457B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
