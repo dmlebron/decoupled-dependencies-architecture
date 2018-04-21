@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum UrlAddress {
+public enum UrlAddress {
     
     static let base = "https://itunes.apple.com/search"
     
@@ -29,21 +29,21 @@ enum UrlAddress {
     }
 }
 
-enum Parameter: String {
+public enum Parameter: String {
     case artistName = "term"
     case type = "entity"
 }
 
-enum Type: String {
+public enum Type: String {
     case album
     case musicVideo
     case musicTrack
 }
 
 
-final class ApiService {
+public final class ApiService {
     
-    static func get(withResultType type: Type, forArtist artist: String, completion: @escaping ([NSDictionary]?) -> ()) {
+    public static func get(withResultType type: Type, forArtist artist: String, completion: @escaping ([NSDictionary]?) -> ()) {
         let stringUrl = UrlAddress.parameters(parameters: [Parameter.type: type.rawValue, Parameter.artistName: artist]).full
         guard let url = URL(string: stringUrl) else { return completion(nil) }
         
