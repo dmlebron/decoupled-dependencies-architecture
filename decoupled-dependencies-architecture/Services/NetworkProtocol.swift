@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol Networking {
+    static func get(fromUrl url: URL, completion: @escaping (Any?) -> ())
+}

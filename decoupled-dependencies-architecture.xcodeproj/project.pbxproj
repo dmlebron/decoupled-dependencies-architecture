@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		228AA70A80D7CEE0D74C3161 /* Pods_decoupled_dependencies_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C789F6973ADC736AAD8C6A2 /* Pods_decoupled_dependencies_architecture.framework */; };
 		2D8CEE1B50119B7CE00CF8CD /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B6CFF2396CF81904173723 /* Pods_decoupled_dependencies_architectureTests.framework */; };
+		EE63AF5E208BA3E200298378 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63AF5D208BA3E200298378 /* NetworkProtocol.swift */; };
 		EE9F83EE2087BB160024009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83ED2087BB160024009C /* AppDelegate.swift */; };
 		EE9F83F02087BB160024009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83EF2087BB160024009C /* ViewController.swift */; };
 		EE9F83F32087BB160024009C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F83F12087BB160024009C /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		14419E832C1F0501C1FA0424 /* Pods-decoupled-dependencies-architectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		92A9BD0A9B04E4E24A9E8116 /* Pods-decoupled-dependencies-architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.release.xcconfig"; sourceTree = "<group>"; };
 		C38A8BDF52BC30FA5533256A /* Pods-decoupled-dependencies-architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.debug.xcconfig"; sourceTree = "<group>"; };
+		EE63AF5D208BA3E200298378 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "decoupled-dependencies-architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9F83ED2087BB160024009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE9F83EF2087BB160024009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +115,6 @@
 		EE9F83EC2087BB160024009C /* decoupled-dependencies-architecture */ = {
 			isa = PBXGroup;
 			children = (
-				EEC688A4208A3FBF00D3457B /* Protocols */,
 				EE9F83ED2087BB160024009C /* AppDelegate.swift */,
 				EE9F83EF2087BB160024009C /* ViewController.swift */,
 				EEC68891208A2F3400D3457B /* Services */,
@@ -138,6 +139,7 @@
 			children = (
 				EEC68892208A2F3400D3457B /* ApiService.swift */,
 				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
+				EE63AF5D208BA3E200298378 /* NetworkProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -149,13 +151,6 @@
 				EE9F83F62087BB170024009C /* LaunchScreen.storyboard */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		EEC688A4208A3FBF00D3457B /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +316,7 @@
 			files = (
 				EEC688A2208A359A00D3457B /* ApiService.swift in Sources */,
 				EEC688A3208A359A00D3457B /* NetworkManager.swift in Sources */,
+				EE63AF5E208BA3E200298378 /* NetworkProtocol.swift in Sources */,
 				EE9F83F02087BB160024009C /* ViewController.swift in Sources */,
 				EE9F83EE2087BB160024009C /* AppDelegate.swift in Sources */,
 			);

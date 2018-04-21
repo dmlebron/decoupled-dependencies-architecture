@@ -7,7 +7,7 @@
 //
 import Foundation
 
-class NetworkManager {
+class NetworkManager: Networking {
 
     static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
