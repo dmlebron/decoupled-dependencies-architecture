@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23DCB6A8164C9B8614D4372D /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025DBB13CF7692C0E9B99487 /* Pods_decoupled_dependencies_architectureTests.framework */; };
-		E3618C7F4A6942AB3F3DB55D /* Pods_decoupled_dependencies_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867066E569324ADEFA638716 /* Pods_decoupled_dependencies_architecture.framework */; };
-		ECFC6382D7BFD5DED436ADA3 /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142CDE91DD5ABB1021EFF441 /* Pods_decoupled_dependencies_architecture_Network.framework */; };
-		EE171638208B99A700E53574 /* libNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE171631208B987500E53574 /* libNetwork.a */; };
+		2A7A37ED34AC5D31E58AD39B /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E6DF54B7EE8A9D09B843C /* Pods_decoupled_dependencies_architectureTests.framework */; };
+		3E1B092883B2B88BDE1F471E /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE63AF44208B9C8000298378 /* Pods_decoupled_dependencies_architecture_Network.framework */; };
+		E02259EEA2B349AD030D5793 /* Pods_decoupled_dependencies_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B619A3315F38AA0ACF186C93 /* Pods_decoupled_dependencies_architecture.framework */; };
+		EE63AF45208B9C8000298378 /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE63AF44208B9C8000298378 /* Pods_decoupled_dependencies_architecture_Network.framework */; };
+		EE63AF56208B9DD400298378 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC68892208A2F3400D3457B /* ApiService.swift */; };
+		EE63AF57208B9DD400298378 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6889B208A301A00D3457B /* NetworkManager.swift */; };
+		EE63AF59208B9DE300298378 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63AF58208B9DE300298378 /* Network.swift */; };
+		EE63AF5A208B9DF600298378 /* libNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE63AF4F208B9DCC00298378 /* libNetwork.a */; };
+		EE63AF5C208BA28A00298378 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */; };
 		EE9F83EE2087BB160024009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83ED2087BB160024009C /* AppDelegate.swift */; };
 		EE9F83F02087BB160024009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83EF2087BB160024009C /* ViewController.swift */; };
 		EE9F83F32087BB160024009C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F83F12087BB160024009C /* Main.storyboard */; };
@@ -30,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EE17162F208B987500E53574 /* CopyFiles */ = {
+		EE63AF4D208B9DCC00298378 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -42,15 +47,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		025DBB13CF7692C0E9B99487 /* Pods_decoupled_dependencies_architectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03303672E90C74E3DE2A3B3B /* Pods-decoupled-dependencies-architectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.release.xcconfig"; sourceTree = "<group>"; };
-		142CDE91DD5ABB1021EFF441 /* Pods_decoupled_dependencies_architecture_Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture_Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14419E832C1F0501C1FA0424 /* Pods-decoupled-dependencies-architectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		342E9C0BF7D8127BF445F3E6 /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-Network/Pods-decoupled-dependencies-architecture-Network.release.xcconfig"; sourceTree = "<group>"; };
-		867066E569324ADEFA638716 /* Pods_decoupled_dependencies_architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		549E6DF54B7EE8A9D09B843C /* Pods_decoupled_dependencies_architectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A9BD0A9B04E4E24A9E8116 /* Pods-decoupled-dependencies-architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.release.xcconfig"; sourceTree = "<group>"; };
+		B619A3315F38AA0ACF186C93 /* Pods_decoupled_dependencies_architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38A8BDF52BC30FA5533256A /* Pods-decoupled-dependencies-architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.debug.xcconfig"; sourceTree = "<group>"; };
-		EE171631208B987500E53574 /* libNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE63AF44208B9C8000298378 /* Pods_decoupled_dependencies_architecture_Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_decoupled_dependencies_architecture_Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE63AF4F208B9DCC00298378 /* libNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE63AF58208B9DE300298378 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "decoupled-dependencies-architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9F83ED2087BB160024009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE9F83EF2087BB160024009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,11 +74,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE17162E208B987500E53574 /* Frameworks */ = {
+		EE63AF4C208B9DCC00298378 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFC6382D7BFD5DED436ADA3 /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */,
+				3E1B092883B2B88BDE1F471E /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE171638208B99A700E53574 /* libNetwork.a in Frameworks */,
-				E3618C7F4A6942AB3F3DB55D /* Pods_decoupled_dependencies_architecture.framework in Frameworks */,
+				EE63AF5A208B9DF600298378 /* libNetwork.a in Frameworks */,
+				EE63AF45208B9C8000298378 /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */,
+				E02259EEA2B349AD030D5793 /* Pods_decoupled_dependencies_architecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23DCB6A8164C9B8614D4372D /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */,
+				2A7A37ED34AC5D31E58AD39B /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +106,9 @@
 		275A0E3565F87A5E00D21D0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				867066E569324ADEFA638716 /* Pods_decoupled_dependencies_architecture.framework */,
-				142CDE91DD5ABB1021EFF441 /* Pods_decoupled_dependencies_architecture_Network.framework */,
-				025DBB13CF7692C0E9B99487 /* Pods_decoupled_dependencies_architectureTests.framework */,
+				EE63AF44208B9C8000298378 /* Pods_decoupled_dependencies_architecture_Network.framework */,
+				B619A3315F38AA0ACF186C93 /* Pods_decoupled_dependencies_architecture.framework */,
+				549E6DF54B7EE8A9D09B843C /* Pods_decoupled_dependencies_architectureTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,15 +129,17 @@
 		EE17162C208B7AC300E53574 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EEC68892208A2F3400D3457B /* ApiService.swift */,
+				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
+				EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		EE171632208B987500E53574 /* Network */ = {
+		EE63AF50208B9DCD00298378 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				EEC68892208A2F3400D3457B /* ApiService.swift */,
-				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
+				EE63AF58208B9DE300298378 /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -139,7 +149,7 @@
 			children = (
 				EE9F83EC2087BB160024009C /* decoupled-dependencies-architecture */,
 				EE9F84012087BB180024009C /* decoupled-dependencies-architectureTests */,
-				EE171632208B987500E53574 /* Network */,
+				EE63AF50208B9DCD00298378 /* Network */,
 				EE9F83EB2087BB160024009C /* Products */,
 				920E5F4F4DD8483CBA33C72E /* Pods */,
 				275A0E3565F87A5E00D21D0E /* Frameworks */,
@@ -151,7 +161,7 @@
 			children = (
 				EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */,
 				EE9F83FE2087BB180024009C /* decoupled-dependencies-architectureTests.xctest */,
-				EE171631208B987500E53574 /* libNetwork.a */,
+				EE63AF4F208B9DCC00298378 /* libNetwork.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,14 +208,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE171630208B987500E53574 /* Network */ = {
+		EE63AF4E208B9DCC00298378 /* Network */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE171635208B987500E53574 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildConfigurationList = EE63AF53208B9DCD00298378 /* Build configuration list for PBXNativeTarget "Network" */;
 			buildPhases = (
-				34778DA381E150CBC91A7D1D /* [CP] Check Pods Manifest.lock */,
-				EE17162D208B987500E53574 /* Sources */,
-				EE17162E208B987500E53574 /* Frameworks */,
-				EE17162F208B987500E53574 /* CopyFiles */,
+				161DA27EDF6C13830C1E48D8 /* [CP] Check Pods Manifest.lock */,
+				EE63AF4B208B9DCC00298378 /* Sources */,
+				EE63AF4C208B9DCC00298378 /* Frameworks */,
+				EE63AF4D208B9DCC00298378 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -213,7 +223,7 @@
 			);
 			name = Network;
 			productName = Network;
-			productReference = EE171631208B987500E53574 /* libNetwork.a */;
+			productReference = EE63AF4F208B9DCC00298378 /* libNetwork.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		EE9F83E92087BB160024009C /* decoupled-dependencies-architecture */ = {
@@ -263,7 +273,7 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = davaur;
 				TargetAttributes = {
-					EE171630208B987500E53574 = {
+					EE63AF4E208B9DCC00298378 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 					EE9F83E92087BB160024009C = {
@@ -290,7 +300,7 @@
 			targets = (
 				EE9F83E92087BB160024009C /* decoupled-dependencies-architecture */,
 				EE9F83FD2087BB180024009C /* decoupled-dependencies-architectureTests */,
-				EE171630208B987500E53574 /* Network */,
+				EE63AF4E208B9DCC00298378 /* Network */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +344,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		34778DA381E150CBC91A7D1D /* [CP] Check Pods Manifest.lock */ = {
+		161DA27EDF6C13830C1E48D8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,10 +383,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE17162D208B987500E53574 /* Sources */ = {
+		EE63AF4B208B9DCC00298378 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE63AF5C208BA28A00298378 /* NetworkProtocol.swift in Sources */,
+				EE63AF57208B9DD400298378 /* NetworkManager.swift in Sources */,
+				EE63AF56208B9DD400298378 /* ApiService.swift in Sources */,
+				EE63AF59208B9DE300298378 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +441,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE171636208B987500E53574 /* Debug */ = {
+		EE63AF54208B9DCD00298378 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F768058A794030CF5E1F4C1D /* Pods-decoupled-dependencies-architecture-Network.debug.xcconfig */;
 			buildSettings = {
@@ -441,7 +455,7 @@
 			};
 			name = Debug;
 		};
-		EE171637208B987500E53574 /* Release */ = {
+		EE63AF55208B9DCD00298378 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 342E9C0BF7D8127BF445F3E6 /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */;
 			buildSettings = {
@@ -577,7 +591,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architecture/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -593,7 +610,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architecture/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -610,7 +630,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architectureTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architectureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -628,7 +652,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architectureTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architectureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -640,11 +668,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE171635208B987500E53574 /* Build configuration list for PBXNativeTarget "Network" */ = {
+		EE63AF53208B9DCD00298378 /* Build configuration list for PBXNativeTarget "Network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE171636208B987500E53574 /* Debug */,
-				EE171637208B987500E53574 /* Release */,
+				EE63AF54208B9DCD00298378 /* Debug */,
+				EE63AF55208B9DCD00298378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

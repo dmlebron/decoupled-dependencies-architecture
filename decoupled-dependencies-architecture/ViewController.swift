@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import NetworkManager
+import Network
 
 class ViewController: UIViewController {
 

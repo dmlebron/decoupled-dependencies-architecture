@@ -6,8 +6,11 @@
 //  Copyright © 2018 davaur. All rights reserved.
 //
 import Foundation
+import Alamofire
 
 class NetworkManager {
+    
+    static func getA(fromUrl url: URL, completion: @escaping (Any?) -> ())
 
     static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
