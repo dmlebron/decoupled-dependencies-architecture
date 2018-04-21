@@ -7,6 +7,7 @@
 //
 import Foundation
 
+
 class NetworkManager {
 
     static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {

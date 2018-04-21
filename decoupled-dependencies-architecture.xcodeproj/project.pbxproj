@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DA059C0BBB5E81ADFA86AF2 /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A0D371B7D2AB736DE38AEE /* Pods_decoupled_dependencies_architectureTests.framework */; };
+		EE302163208B71FA00834988 /* libNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA84E1F208A8DDA00C17579 /* libNetworkManager.a */; };
 		EE9F83EE2087BB160024009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83ED2087BB160024009C /* AppDelegate.swift */; };
 		EE9F83F02087BB160024009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83EF2087BB160024009C /* ViewController.swift */; };
 		EE9F83F32087BB160024009C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F83F12087BB160024009C /* Main.storyboard */; };
@@ -15,7 +17,7 @@
 		EE9F84032087BB180024009C /* decoupled_dependencies_architectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F84022087BB180024009C /* decoupled_dependencies_architectureTests.swift */; };
 		EEA84E26208A8DEE00C17579 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6889B208A301A00D3457B /* NetworkManager.swift */; };
 		EEA84E27208A8DEE00C17579 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC68892208A2F3400D3457B /* ApiService.swift */; };
-		EEA84E29208A8FCD00C17579 /* libNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA84E1F208A8DDA00C17579 /* libNetworkManager.a */; };
+		FDA3DA535075103CA5DCD075 /* Pods_decoupled_dependencies_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155E4240B7A6232DC7972752 /* Pods_decoupled_dependencies_architecture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		03303672E90C74E3DE2A3B3B /* Pods-decoupled-dependencies-architectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.release.xcconfig"; sourceTree = "<group>"; };
 		14419E832C1F0501C1FA0424 /* Pods-decoupled-dependencies-architectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		155E4240B7A6232DC7972752 /* Pods_decoupled_dependencies_architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A0D371B7D2AB736DE38AEE /* Pods_decoupled_dependencies_architectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A9BD0A9B04E4E24A9E8116 /* Pods-decoupled-dependencies-architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.release.xcconfig"; sourceTree = "<group>"; };
 		C38A8BDF52BC30FA5533256A /* Pods-decoupled-dependencies-architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.debug.xcconfig"; sourceTree = "<group>"; };
 		EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "decoupled-dependencies-architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA84E29208A8FCD00C17579 /* libNetworkManager.a in Frameworks */,
+				EE302163208B71FA00834988 /* libNetworkManager.a in Frameworks */,
+				FDA3DA535075103CA5DCD075 /* Pods_decoupled_dependencies_architecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA059C0BBB5E81ADFA86AF2 /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +95,8 @@
 		275A0E3565F87A5E00D21D0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				155E4240B7A6232DC7972752 /* Pods_decoupled_dependencies_architecture.framework */,
+				88A0D371B7D2AB736DE38AEE /* Pods_decoupled_dependencies_architectureTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 				EEA84E1B208A8DDA00C17579 /* Sources */,
 				EEA84E1C208A8DDA00C17579 /* Frameworks */,
 				EEA84E1D208A8DDA00C17579 /* CopyFiles */,
+				EE30215E208B713E00834988 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +292,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EE30215E208B713E00834988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE9F83E82087BB160024009C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
