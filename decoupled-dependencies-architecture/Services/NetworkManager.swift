@@ -8,9 +8,7 @@
 import Foundation
 import Alamofire
 
-class NetworkManager {
-    
-    static func getA(fromUrl url: URL, completion: @escaping (Any?) -> ())
+class NetworkManager: Networking {
 
     static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
