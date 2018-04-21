@@ -132,7 +132,6 @@
 				EEC688A4208A3FBF00D3457B /* Protocols */,
 				EE9F83ED2087BB160024009C /* AppDelegate.swift */,
 				EE9F83EF2087BB160024009C /* ViewController.swift */,
-				EEC68891208A2F3400D3457B /* Services */,
 				EEC68894208A2F3F00D3457B /* UI */,
 				EE9F83F42087BB170024009C /* Assets.xcassets */,
 				EE9F83F92087BB170024009C /* Info.plist */,
@@ -156,13 +155,6 @@
 				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
-			sourceTree = "<group>";
-		};
-		EEC68891208A2F3400D3457B /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		EEC68894208A2F3F00D3457B /* UI */ = {
