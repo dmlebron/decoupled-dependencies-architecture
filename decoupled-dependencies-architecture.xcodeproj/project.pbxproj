@@ -104,12 +104,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EE30215D208B70B900834988 /* Services */ = {
+		EE17162C208B7AC300E53574 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Services;
-			path = "New Group";
+			path = Services;
 			sourceTree = "<group>";
 		};
 		EE9F83E12087BB160024009C = {
@@ -137,7 +136,7 @@
 		EE9F83EC2087BB160024009C /* decoupled-dependencies-architecture */ = {
 			isa = PBXGroup;
 			children = (
-				EE30215D208B70B900834988 /* Services */,
+				EE17162C208B7AC300E53574 /* Services */,
 				EEC688A4208A3FBF00D3457B /* Protocols */,
 				EE9F83ED2087BB160024009C /* AppDelegate.swift */,
 				EE9F83EF2087BB160024009C /* ViewController.swift */,
