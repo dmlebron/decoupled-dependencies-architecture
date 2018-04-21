@@ -129,9 +129,6 @@
 		EE17162C208B7AC300E53574 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				EEC68892208A2F3400D3457B /* ApiService.swift */,
-				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
-				EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -139,6 +136,9 @@
 		EE63AF50208B9DCD00298378 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				EEC68892208A2F3400D3457B /* ApiService.swift */,
+				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
+				EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */,
 				EE63AF58208B9DE300298378 /* Network.swift */,
 			);
 			path = Network;
@@ -170,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				EE17162C208B7AC300E53574 /* Services */,
-				EEC688A4208A3FBF00D3457B /* Protocols */,
 				EE9F83ED2087BB160024009C /* AppDelegate.swift */,
 				EE9F83EF2087BB160024009C /* ViewController.swift */,
 				EEC68894208A2F3F00D3457B /* UI */,
@@ -196,13 +195,6 @@
 				EE9F83F62087BB170024009C /* LaunchScreen.storyboard */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		EEC688A4208A3FBF00D3457B /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
