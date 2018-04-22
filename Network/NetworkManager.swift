@@ -10,30 +10,23 @@ import Alamofire
 
 class NetworkManager: Networking {
 
-//    static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {
-//
-//        URLSession.shared.dataTask(with: url) { (data, response, error) in
-//            guard let data = data, error == nil else {
-//                return completion(nil)
-//            }
-//            do {
-//                let deserialized = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-//                DispatchQueue.main.async {
-//                    completion(deserialized)
-//                }
-//
-//            } catch {
-//                DispatchQueue.main.async {
-//                    completion(nil)
-//                }
-//            }
-//            }.resume()
-//    }
-    
     static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {
-        Alamofire.request("https://httpbin.org/get").responseJSON { (response) in
-            
-        }
+
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard let data = data, error == nil else {
+                return completion(nil)
+            }
+            do {
+                let deserialized = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+                DispatchQueue.main.async {
+                    completion(deserialized)
+                }
+
+            } catch {
+                DispatchQueue.main.async {
+                    completion(nil)
+                }
+            }
+            }.resume()
     }
-    
 }
