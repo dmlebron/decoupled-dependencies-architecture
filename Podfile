@@ -3,6 +3,7 @@ platform :ios, '9.0'
 
 def network_pods
     pod 'Alamofire'
+    pod 'AlamofireImage'
 end
 
 target 'decoupled-dependencies-architecture' do
