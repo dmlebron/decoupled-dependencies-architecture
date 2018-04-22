@@ -6,7 +6,6 @@
 //  Copyright © 2018 davaur. All rights reserved.
 //
 import Foundation
-import Alamofire
 
 class NetworkManager: Networking {
 
