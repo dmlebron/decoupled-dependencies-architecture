@@ -14,7 +14,7 @@ target 'decoupled-dependencies-architecture' do
         # Pods for testing
     end
     
-    target 'NetworkTwo' do
+    target 'Network' do
         network_pods
     end
 
