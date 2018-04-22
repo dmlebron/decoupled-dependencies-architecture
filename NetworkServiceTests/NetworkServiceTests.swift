@@ -1,15 +1,15 @@
 //
-//  NetworkTests.swift
-//  NetworkTests
+//  NetworkServiceTests.swift
+//  NetworkServiceTests
 //
-//  Created by David Martinez-Lebron on 4/21/18.
+//  Created by David Martinez-Lebron on 4/22/18.
 //  Copyright © 2018 davaur. All rights reserved.
 //
 
 import XCTest
-@testable import Network
+@testable import NetworkService
 
-class NetworkTests: XCTestCase {
+class NetworkServiceTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

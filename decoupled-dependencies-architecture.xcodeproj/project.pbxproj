@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		821F4962B17A3ED654B4D05C /* Pods_decoupled_dependencies_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086E8BF0DAFFACA206A65D87 /* Pods_decoupled_dependencies_architecture.framework */; };
-		91545431A0ED506F12C2ACF1 /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC8B1E8A34D40EB0E575ABD /* Pods_decoupled_dependencies_architecture_Network.framework */; };
+		B9E420194AE60018B63E2AE5 /* Pods_decoupled_dependencies_architecture_NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22382D7B83B30D8D235F34E0 /* Pods_decoupled_dependencies_architecture_NetworkService.framework */; };
 		C09D925AFE2B2A41EB51E3DD /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836ED85758E14BC5CC994084 /* Pods_decoupled_dependencies_architectureTests.framework */; };
-		EE8EFA2D208C3F23004937CF /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA24208C3F23004937CF /* Network.framework */; };
-		EE8EFA34208C3F23004937CF /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFA33208C3F23004937CF /* NetworkTests.swift */; };
-		EE8EFA36208C3F23004937CF /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8EFA26208C3F23004937CF /* Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8EFA39208C3F23004937CF /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA24208C3F23004937CF /* Network.framework */; };
-		EE8EFA3A208C3F23004937CF /* Network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA24208C3F23004937CF /* Network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EE8EFA41208C3F31004937CF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6889B208A301A00D3457B /* NetworkManager.swift */; };
-		EE8EFA42208C3F31004937CF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC68892208A2F3400D3457B /* ApiService.swift */; };
-		EE8EFA43208C3F31004937CF /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */; };
+		EE8EFA57208C4386004937CF /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA4E208C4385004937CF /* NetworkService.framework */; };
+		EE8EFA5E208C4386004937CF /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFA5D208C4386004937CF /* NetworkServiceTests.swift */; };
+		EE8EFA60208C4386004937CF /* NetworkService.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8EFA50208C4385004937CF /* NetworkService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8EFA63208C4386004937CF /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA4E208C4385004937CF /* NetworkService.framework */; };
+		EE8EFA64208C4386004937CF /* NetworkService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA4E208C4385004937CF /* NetworkService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE8EFA6B208C43D6004937CF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6889B208A301A00D3457B /* NetworkManager.swift */; };
+		EE8EFA6C208C43D6004937CF /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */; };
+		EE8EFA6D208C43D6004937CF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC68892208A2F3400D3457B /* ApiService.swift */; };
 		EE9F83EE2087BB160024009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83ED2087BB160024009C /* AppDelegate.swift */; };
 		EE9F83F02087BB160024009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F83EF2087BB160024009C /* ViewController.swift */; };
 		EE9F83F32087BB160024009C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F83F12087BB160024009C /* Main.storyboard */; };
@@ -27,26 +27,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE8EFA2E208C3F23004937CF /* PBXContainerItemProxy */ = {
+		EE8EFA58208C4386004937CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE9F83E22087BB160024009C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE8EFA23208C3F23004937CF;
-			remoteInfo = Network;
+			remoteGlobalIDString = EE8EFA4D208C4385004937CF;
+			remoteInfo = NetworkService;
 		};
-		EE8EFA30208C3F23004937CF /* PBXContainerItemProxy */ = {
+		EE8EFA5A208C4386004937CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE9F83E22087BB160024009C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EE9F83E92087BB160024009C;
 			remoteInfo = "decoupled-dependencies-architecture";
 		};
-		EE8EFA37208C3F23004937CF /* PBXContainerItemProxy */ = {
+		EE8EFA61208C4386004937CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE9F83E22087BB160024009C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE8EFA23208C3F23004937CF;
-			remoteInfo = Network;
+			remoteGlobalIDString = EE8EFA4D208C4385004937CF;
+			remoteInfo = NetworkService;
 		};
 		EE9F83FF2087BB180024009C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -64,7 +64,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EE8EFA3A208C3F23004937CF /* Network.framework in Embed Frameworks */,
+				EE8EFA64208C4386004937CF /* NetworkService.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,21 +76,24 @@
 		086E8BF0DAFFACA206A65D87 /* Pods_decoupled_dependencies_architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF8A187F614420FA054DC32 /* Pods_decoupled_dependencies_architecture_NetworkTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture_NetworkTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14419E832C1F0501C1FA0424 /* Pods-decoupled-dependencies-architectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22382D7B83B30D8D235F34E0 /* Pods_decoupled_dependencies_architecture_NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture_NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428601968DA38EA3B564D82C /* Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkService/Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig"; sourceTree = "<group>"; };
 		49CDB13B4FA50A391BF8FDCC /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-Network/Pods-decoupled-dependencies-architecture-Network.release.xcconfig"; sourceTree = "<group>"; };
 		4DFA64690B4B36ACC5B1EF4A /* Pods-decoupled-dependencies-architecture-NetworkTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkTwo/Pods-decoupled-dependencies-architecture-NetworkTwo.debug.xcconfig"; sourceTree = "<group>"; };
 		836ED85758E14BC5CC994084 /* Pods_decoupled_dependencies_architectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0B70A2AE9C3B14354FA833 /* Pods-decoupled-dependencies-architecture-Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-Network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-Network/Pods-decoupled-dependencies-architecture-Network.debug.xcconfig"; sourceTree = "<group>"; };
 		92A9BD0A9B04E4E24A9E8116 /* Pods-decoupled-dependencies-architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.release.xcconfig"; sourceTree = "<group>"; };
 		96DA2128A4D39FC11161C4BD /* Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkTwo/Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig"; sourceTree = "<group>"; };
+		B2C95141947F47BF5677C3D1 /* Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkService/Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig"; sourceTree = "<group>"; };
 		C38A8BDF52BC30FA5533256A /* Pods-decoupled-dependencies-architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.debug.xcconfig"; sourceTree = "<group>"; };
 		EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		EE8EF9C8208BAB07004937CF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8EFA24208C3F23004937CF /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8EFA26208C3F23004937CF /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
-		EE8EFA27208C3F23004937CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE8EFA2C208C3F23004937CF /* NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8EFA33208C3F23004937CF /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
-		EE8EFA35208C3F23004937CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8EFA4E208C4385004937CF /* NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8EFA50208C4385004937CF /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		EE8EFA51208C4385004937CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8EFA56208C4386004937CF /* NetworkServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8EFA5D208C4386004937CF /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		EE8EFA5F208C4386004937CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "decoupled-dependencies-architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9F83ED2087BB160024009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE9F83EF2087BB160024009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,19 +110,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE8EFA20208C3F23004937CF /* Frameworks */ = {
+		EE8EFA4A208C4385004937CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91545431A0ED506F12C2ACF1 /* Pods_decoupled_dependencies_architecture_Network.framework in Frameworks */,
+				B9E420194AE60018B63E2AE5 /* Pods_decoupled_dependencies_architecture_NetworkService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8EFA29208C3F23004937CF /* Frameworks */ = {
+		EE8EFA53208C4386004937CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8EFA2D208C3F23004937CF /* Network.framework in Frameworks */,
+				EE8EFA57208C4386004937CF /* NetworkService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821F4962B17A3ED654B4D05C /* Pods_decoupled_dependencies_architecture.framework in Frameworks */,
-				EE8EFA39208C3F23004937CF /* Network.framework in Frameworks */,
+				EE8EFA63208C4386004937CF /* NetworkService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +154,7 @@
 				FFC8B1E8A34D40EB0E575ABD /* Pods_decoupled_dependencies_architecture_Network.framework */,
 				836ED85758E14BC5CC994084 /* Pods_decoupled_dependencies_architectureTests.framework */,
 				0BF8A187F614420FA054DC32 /* Pods_decoupled_dependencies_architecture_NetworkTwo.framework */,
+				22382D7B83B30D8D235F34E0 /* Pods_decoupled_dependencies_architecture_NetworkService.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,6 +170,8 @@
 				96DA2128A4D39FC11161C4BD /* Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig */,
 				8A0B70A2AE9C3B14354FA833 /* Pods-decoupled-dependencies-architecture-Network.debug.xcconfig */,
 				49CDB13B4FA50A391BF8FDCC /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */,
+				428601968DA38EA3B564D82C /* Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig */,
+				B2C95141947F47BF5677C3D1 /* Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -177,25 +183,25 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		EE8EFA25208C3F23004937CF /* Network */ = {
+		EE8EFA4F208C4385004937CF /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
 				EEC68892208A2F3400D3457B /* ApiService.swift */,
 				EEC6889B208A301A00D3457B /* NetworkManager.swift */,
 				EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */,
-				EE8EFA26208C3F23004937CF /* Network.h */,
-				EE8EFA27208C3F23004937CF /* Info.plist */,
+				EE8EFA50208C4385004937CF /* NetworkService.h */,
+				EE8EFA51208C4385004937CF /* Info.plist */,
 			);
-			path = Network;
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
-		EE8EFA32208C3F23004937CF /* NetworkTests */ = {
+		EE8EFA5C208C4386004937CF /* NetworkServiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE8EFA33208C3F23004937CF /* NetworkTests.swift */,
-				EE8EFA35208C3F23004937CF /* Info.plist */,
+				EE8EFA5D208C4386004937CF /* NetworkServiceTests.swift */,
+				EE8EFA5F208C4386004937CF /* Info.plist */,
 			);
-			path = NetworkTests;
+			path = NetworkServiceTests;
 			sourceTree = "<group>";
 		};
 		EE9F83E12087BB160024009C = {
@@ -203,8 +209,8 @@
 			children = (
 				EE9F83EC2087BB160024009C /* decoupled-dependencies-architecture */,
 				EE9F84012087BB180024009C /* decoupled-dependencies-architectureTests */,
-				EE8EFA25208C3F23004937CF /* Network */,
-				EE8EFA32208C3F23004937CF /* NetworkTests */,
+				EE8EFA4F208C4385004937CF /* NetworkService */,
+				EE8EFA5C208C4386004937CF /* NetworkServiceTests */,
 				EE9F83EB2087BB160024009C /* Products */,
 				920E5F4F4DD8483CBA33C72E /* Pods */,
 				275A0E3565F87A5E00D21D0E /* Frameworks */,
@@ -216,8 +222,8 @@
 			children = (
 				EE9F83EA2087BB160024009C /* decoupled-dependencies-architecture.app */,
 				EE9F83FE2087BB180024009C /* decoupled-dependencies-architectureTests.xctest */,
-				EE8EFA24208C3F23004937CF /* Network.framework */,
-				EE8EFA2C208C3F23004937CF /* NetworkTests.xctest */,
+				EE8EFA4E208C4385004937CF /* NetworkService.framework */,
+				EE8EFA56208C4386004937CF /* NetworkServiceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,53 +262,53 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EE8EFA21208C3F23004937CF /* Headers */ = {
+		EE8EFA4B208C4385004937CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8EFA36208C3F23004937CF /* Network.h in Headers */,
+				EE8EFA60208C4386004937CF /* NetworkService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EE8EFA23208C3F23004937CF /* Network */ = {
+		EE8EFA4D208C4385004937CF /* NetworkService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE8EFA3F208C3F23004937CF /* Build configuration list for PBXNativeTarget "Network" */;
+			buildConfigurationList = EE8EFA65208C4386004937CF /* Build configuration list for PBXNativeTarget "NetworkService" */;
 			buildPhases = (
-				A17E2F71FE8139B9AB138F41 /* [CP] Check Pods Manifest.lock */,
-				EE8EFA1F208C3F23004937CF /* Sources */,
-				EE8EFA20208C3F23004937CF /* Frameworks */,
-				EE8EFA21208C3F23004937CF /* Headers */,
-				EE8EFA22208C3F23004937CF /* Resources */,
+				9DDD0138310CD1A8E06AF17B /* [CP] Check Pods Manifest.lock */,
+				EE8EFA49208C4385004937CF /* Sources */,
+				EE8EFA4A208C4385004937CF /* Frameworks */,
+				EE8EFA4B208C4385004937CF /* Headers */,
+				EE8EFA4C208C4385004937CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Network;
-			productName = Network;
-			productReference = EE8EFA24208C3F23004937CF /* Network.framework */;
+			name = NetworkService;
+			productName = NetworkService;
+			productReference = EE8EFA4E208C4385004937CF /* NetworkService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EE8EFA2B208C3F23004937CF /* NetworkTests */ = {
+		EE8EFA55208C4386004937CF /* NetworkServiceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE8EFA40208C3F23004937CF /* Build configuration list for PBXNativeTarget "NetworkTests" */;
+			buildConfigurationList = EE8EFA68208C4386004937CF /* Build configuration list for PBXNativeTarget "NetworkServiceTests" */;
 			buildPhases = (
-				EE8EFA28208C3F23004937CF /* Sources */,
-				EE8EFA29208C3F23004937CF /* Frameworks */,
-				EE8EFA2A208C3F23004937CF /* Resources */,
+				EE8EFA52208C4386004937CF /* Sources */,
+				EE8EFA53208C4386004937CF /* Frameworks */,
+				EE8EFA54208C4386004937CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE8EFA2F208C3F23004937CF /* PBXTargetDependency */,
-				EE8EFA31208C3F23004937CF /* PBXTargetDependency */,
+				EE8EFA59208C4386004937CF /* PBXTargetDependency */,
+				EE8EFA5B208C4386004937CF /* PBXTargetDependency */,
 			);
-			name = NetworkTests;
-			productName = NetworkTests;
-			productReference = EE8EFA2C208C3F23004937CF /* NetworkTests.xctest */;
+			name = NetworkServiceTests;
+			productName = NetworkServiceTests;
+			productReference = EE8EFA56208C4386004937CF /* NetworkServiceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		EE9F83E92087BB160024009C /* decoupled-dependencies-architecture */ = {
@@ -319,7 +325,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE8EFA38208C3F23004937CF /* PBXTargetDependency */,
+				EE8EFA62208C4386004937CF /* PBXTargetDependency */,
 			);
 			name = "decoupled-dependencies-architecture";
 			productName = "decoupled-dependencies-architecture";
@@ -355,10 +361,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = davaur;
 				TargetAttributes = {
-					EE8EFA23208C3F23004937CF = {
+					EE8EFA4D208C4385004937CF = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					EE8EFA2B208C3F23004937CF = {
+					EE8EFA55208C4386004937CF = {
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = EE9F83E92087BB160024009C;
 					};
@@ -386,21 +392,21 @@
 			targets = (
 				EE9F83E92087BB160024009C /* decoupled-dependencies-architecture */,
 				EE9F83FD2087BB180024009C /* decoupled-dependencies-architectureTests */,
-				EE8EFA23208C3F23004937CF /* Network */,
-				EE8EFA2B208C3F23004937CF /* NetworkTests */,
+				EE8EFA4D208C4385004937CF /* NetworkService */,
+				EE8EFA55208C4386004937CF /* NetworkServiceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE8EFA22208C3F23004937CF /* Resources */ = {
+		EE8EFA4C208C4385004937CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8EFA2A208C3F23004937CF /* Resources */ = {
+		EE8EFA54208C4386004937CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,7 +451,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A17E2F71FE8139B9AB138F41 /* [CP] Check Pods Manifest.lock */ = {
+		9DDD0138310CD1A8E06AF17B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,7 +462,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-decoupled-dependencies-architecture-Network-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-decoupled-dependencies-architecture-NetworkService-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -502,21 +508,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE8EFA1F208C3F23004937CF /* Sources */ = {
+		EE8EFA49208C4385004937CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8EFA42208C3F31004937CF /* ApiService.swift in Sources */,
-				EE8EFA41208C3F31004937CF /* NetworkManager.swift in Sources */,
-				EE8EFA43208C3F31004937CF /* NetworkProtocol.swift in Sources */,
+				EE8EFA6C208C43D6004937CF /* NetworkProtocol.swift in Sources */,
+				EE8EFA6B208C43D6004937CF /* NetworkManager.swift in Sources */,
+				EE8EFA6D208C43D6004937CF /* ApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8EFA28208C3F23004937CF /* Sources */ = {
+		EE8EFA52208C4386004937CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8EFA34208C3F23004937CF /* NetworkTests.swift in Sources */,
+				EE8EFA5E208C4386004937CF /* NetworkServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,20 +546,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EE8EFA2F208C3F23004937CF /* PBXTargetDependency */ = {
+		EE8EFA59208C4386004937CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE8EFA23208C3F23004937CF /* Network */;
-			targetProxy = EE8EFA2E208C3F23004937CF /* PBXContainerItemProxy */;
+			target = EE8EFA4D208C4385004937CF /* NetworkService */;
+			targetProxy = EE8EFA58208C4386004937CF /* PBXContainerItemProxy */;
 		};
-		EE8EFA31208C3F23004937CF /* PBXTargetDependency */ = {
+		EE8EFA5B208C4386004937CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EE9F83E92087BB160024009C /* decoupled-dependencies-architecture */;
-			targetProxy = EE8EFA30208C3F23004937CF /* PBXContainerItemProxy */;
+			targetProxy = EE8EFA5A208C4386004937CF /* PBXContainerItemProxy */;
 		};
-		EE8EFA38208C3F23004937CF /* PBXTargetDependency */ = {
+		EE8EFA62208C4386004937CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE8EFA23208C3F23004937CF /* Network */;
-			targetProxy = EE8EFA37208C3F23004937CF /* PBXContainerItemProxy */;
+			target = EE8EFA4D208C4385004937CF /* NetworkService */;
+			targetProxy = EE8EFA61208C4386004937CF /* PBXContainerItemProxy */;
 		};
 		EE9F84002087BB180024009C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -582,9 +588,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE8EFA3B208C3F23004937CF /* Debug */ = {
+		EE8EFA66208C4386004937CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A0B70A2AE9C3B14354FA833 /* Pods-decoupled-dependencies-architecture-Network.debug.xcconfig */;
+			baseConfigurationReference = 428601968DA38EA3B564D82C /* Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -594,10 +600,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Network/Info.plist;
+				INFOPLIST_FILE = NetworkService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.Network;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -607,9 +613,9 @@
 			};
 			name = Debug;
 		};
-		EE8EFA3C208C3F23004937CF /* Release */ = {
+		EE8EFA67208C4386004937CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49CDB13B4FA50A391BF8FDCC /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */;
+			baseConfigurationReference = B2C95141947F47BF5677C3D1 /* Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -619,10 +625,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Network/Info.plist;
+				INFOPLIST_FILE = NetworkService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.Network;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -632,15 +638,15 @@
 			};
 			name = Release;
 		};
-		EE8EFA3D208C3F23004937CF /* Debug */ = {
+		EE8EFA69208C4386004937CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
-				INFOPLIST_FILE = NetworkTests/Info.plist;
+				INFOPLIST_FILE = NetworkServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,15 +654,15 @@
 			};
 			name = Debug;
 		};
-		EE8EFA3E208C3F23004937CF /* Release */ = {
+		EE8EFA6A208C4386004937CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
-				INFOPLIST_FILE = NetworkTests/Info.plist;
+				INFOPLIST_FILE = NetworkServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -851,20 +857,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE8EFA3F208C3F23004937CF /* Build configuration list for PBXNativeTarget "Network" */ = {
+		EE8EFA65208C4386004937CF /* Build configuration list for PBXNativeTarget "NetworkService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE8EFA3B208C3F23004937CF /* Debug */,
-				EE8EFA3C208C3F23004937CF /* Release */,
+				EE8EFA66208C4386004937CF /* Debug */,
+				EE8EFA67208C4386004937CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE8EFA40208C3F23004937CF /* Build configuration list for PBXNativeTarget "NetworkTests" */ = {
+		EE8EFA68208C4386004937CF /* Build configuration list for PBXNativeTarget "NetworkServiceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE8EFA3D208C3F23004937CF /* Debug */,
-				EE8EFA3E208C3F23004937CF /* Release */,
+				EE8EFA69208C4386004937CF /* Debug */,
+				EE8EFA6A208C4386004937CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

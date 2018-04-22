@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Network
+import NetworkService
 
 class ViewController: UIViewController {
 
