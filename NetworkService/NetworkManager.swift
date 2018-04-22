@@ -12,7 +12,14 @@ class NetworkManager: Networking {
     
     static func get(fromUrl url: URL, completion: @escaping (Any?) -> ()) {
         Alamofire.request(url.absoluteString).responseJSON { (response) in
-            print(response)
+            switch response.result {
+            case .success (let responseObject):
+                completion(responseObject)
+                break
+            case .failure:
+                completion(nil)
+                break
+            }
         }
     }
 }
