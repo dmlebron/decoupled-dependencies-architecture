@@ -45,6 +45,7 @@ public final class ApiService {
     
     public static func get(withResultType type: Type, forArtist artist: String, completion: @escaping ([NSDictionary]?) -> ()) {
         let stringUrl = UrlAddress.parameters(parameters: [Parameter.type: type.rawValue, Parameter.artistName: artist]).full
+        
         guard let url = URL(string: stringUrl) else { return completion(nil) }
         
         NetworkManager.get(fromUrl: url) { (response) in

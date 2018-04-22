@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>NetworkTwo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>decoupled-dependencies-architecture.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
