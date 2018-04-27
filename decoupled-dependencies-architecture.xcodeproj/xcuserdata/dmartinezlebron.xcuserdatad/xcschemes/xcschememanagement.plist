@@ -17,7 +17,7 @@
 		<key>NetworkService.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>NetworkTwo.xcscheme</key>
 		<dict>
@@ -27,7 +27,7 @@
 		<key>decoupled-dependencies-architecture.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		821F4962B17A3ED654B4D05C /* Pods_decoupled_dependencies_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086E8BF0DAFFACA206A65D87 /* Pods_decoupled_dependencies_architecture.framework */; };
-		B9E420194AE60018B63E2AE5 /* Pods_decoupled_dependencies_architecture_NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22382D7B83B30D8D235F34E0 /* Pods_decoupled_dependencies_architecture_NetworkService.framework */; };
 		C09D925AFE2B2A41EB51E3DD /* Pods_decoupled_dependencies_architectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836ED85758E14BC5CC994084 /* Pods_decoupled_dependencies_architectureTests.framework */; };
 		EE8EFA57208C4386004937CF /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8EFA4E208C4385004937CF /* NetworkService.framework */; };
 		EE8EFA5E208C4386004937CF /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EFA5D208C4386004937CF /* NetworkServiceTests.swift */; };
@@ -77,14 +76,12 @@
 		0BF8A187F614420FA054DC32 /* Pods_decoupled_dependencies_architecture_NetworkTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture_NetworkTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14419E832C1F0501C1FA0424 /* Pods-decoupled-dependencies-architectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architectureTests/Pods-decoupled-dependencies-architectureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		22382D7B83B30D8D235F34E0 /* Pods_decoupled_dependencies_architecture_NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architecture_NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		428601968DA38EA3B564D82C /* Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkService/Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig"; sourceTree = "<group>"; };
 		49CDB13B4FA50A391BF8FDCC /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-Network/Pods-decoupled-dependencies-architecture-Network.release.xcconfig"; sourceTree = "<group>"; };
 		4DFA64690B4B36ACC5B1EF4A /* Pods-decoupled-dependencies-architecture-NetworkTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkTwo/Pods-decoupled-dependencies-architecture-NetworkTwo.debug.xcconfig"; sourceTree = "<group>"; };
 		836ED85758E14BC5CC994084 /* Pods_decoupled_dependencies_architectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoupled_dependencies_architectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0B70A2AE9C3B14354FA833 /* Pods-decoupled-dependencies-architecture-Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-Network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-Network/Pods-decoupled-dependencies-architecture-Network.debug.xcconfig"; sourceTree = "<group>"; };
 		92A9BD0A9B04E4E24A9E8116 /* Pods-decoupled-dependencies-architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.release.xcconfig"; sourceTree = "<group>"; };
 		96DA2128A4D39FC11161C4BD /* Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkTwo/Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig"; sourceTree = "<group>"; };
-		B2C95141947F47BF5677C3D1 /* Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture-NetworkService/Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig"; sourceTree = "<group>"; };
 		C38A8BDF52BC30FA5533256A /* Pods-decoupled-dependencies-architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-decoupled-dependencies-architecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture.debug.xcconfig"; sourceTree = "<group>"; };
 		EE63AF5B208BA28A00298378 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		EE8EF9C8208BAB07004937CF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E420194AE60018B63E2AE5 /* Pods_decoupled_dependencies_architecture_NetworkService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +166,6 @@
 				96DA2128A4D39FC11161C4BD /* Pods-decoupled-dependencies-architecture-NetworkTwo.release.xcconfig */,
 				8A0B70A2AE9C3B14354FA833 /* Pods-decoupled-dependencies-architecture-Network.debug.xcconfig */,
 				49CDB13B4FA50A391BF8FDCC /* Pods-decoupled-dependencies-architecture-Network.release.xcconfig */,
-				428601968DA38EA3B564D82C /* Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig */,
-				B2C95141947F47BF5677C3D1 /* Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -277,7 +271,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE8EFA65208C4386004937CF /* Build configuration list for PBXNativeTarget "NetworkService" */;
 			buildPhases = (
-				9DDD0138310CD1A8E06AF17B /* [CP] Check Pods Manifest.lock */,
 				EE8EFA49208C4385004937CF /* Sources */,
 				EE8EFA4A208C4385004937CF /* Frameworks */,
 				EE8EFA4B208C4385004937CF /* Headers */,
@@ -320,7 +313,6 @@
 				EE9F83E72087BB160024009C /* Frameworks */,
 				EE9F83E82087BB160024009C /* Resources */,
 				EE8EF9EB208C39A8004937CF /* Embed Frameworks */,
-				FC3AD6A7314225B30854B86F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -451,24 +443,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9DDD0138310CD1A8E06AF17B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-decoupled-dependencies-architecture-NetworkService-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E6C5BD960114C1FA7DA158E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,24 +459,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC3AD6A7314225B30854B86F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-decoupled-dependencies-architecture/Pods-decoupled-dependencies-architecture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -590,7 +546,6 @@
 /* Begin XCBuildConfiguration section */
 		EE8EFA66208C4386004937CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 428601968DA38EA3B564D82C /* Pods-decoupled-dependencies-architecture-NetworkService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -602,11 +557,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NetworkService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -619,7 +570,6 @@
 		};
 		EE8EFA67208C4386004937CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2C95141947F47BF5677C3D1 /* Pods-decoupled-dependencies-architecture-NetworkService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -631,11 +581,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NetworkService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -653,11 +599,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = NetworkServiceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -673,11 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = NetworkServiceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davaur.NetworkServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -809,10 +747,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architecture/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -829,10 +764,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architecture/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -849,11 +781,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architectureTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architectureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -871,11 +799,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NM4DLTS84;
 				INFOPLIST_FILE = "decoupled-dependencies-architectureTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davaur.decoupled-dependencies-architectureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
